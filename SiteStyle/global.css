@@ -1,0 +1,230 @@
+ a{
+     text-decoration: none;
+ }
+
+ html,body{
+
+    height: 100%;
+ }
+ body{
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+   
+    input, textarea{
+        border: 1px solid #aaa;
+        box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+        border-radius: 4px;
+    }
+
+    textarea{
+        overflow: auto;
+        padding: 5px;
+    }
+
+    #submit{
+        color: #555;
+        font-weight: bold;
+    }
+
+    #reset{
+        color: #555;
+        font-weight: bold;
+    }
+
+    label{
+        padding-top: 15px;
+        display: block;
+        font-weight: bold;
+    }
+    legend{
+        font-size: 16px;
+        font-weight: bold;
+        color:#555;
+    }
+
+    fieldset{
+        border: 1px solid #555;
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+
+    input:invalid, textarea:invalid{
+        background: #fff;
+        box-shadow: 0 0 5px #d45252;
+    }
+
+    input:required:valid, textarea:required:valid{
+        background: #fff;
+        box-shadow: 0 0 0 5px #5cd053;
+        border-color: #28921f;
+    }
+
+    header{
+
+        position: relative;
+        height: 80px;
+        background-color: #19172d;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        min-height: 80px;
+    }
+
+    .logo{
+        padding-left: 20px;
+        font-size: 20px;
+        color: rgb(212, 171, 33);
+    }
+
+    .logo > span{ /*Usando > para declarar el lugar que puedo cambiar el diseño*/
+
+        font-size: 30px;
+        color: white;
+    }
+
+    header > nav{
+        color:white;
+    }
+
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        align-content: flex-end;
+        width: 200px;
+        cursor: pointer;
+
+    }
+
+    .nav_links >li >a{
+        color: white;
+    }
+
+    .headerimage{
+        position: absolute;
+        right: 0;
+        top: 2px;
+    }
+
+    .headerimage> img{
+        height: 75px;
+    }
+
+    .container{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-title{
+
+        font-size: 30px;
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .cards{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+      
+    }
+
+    .card > figure > img{
+
+        height: 200px;
+        width: 350px;
+        cursor: pointer;
+        
+
+    }
+
+    .card >figure >figcaption{
+        max-width: 200px;
+        
+    }
+
+    footer {
+        background-color: #181e35;
+        color: rgb(212, 171, 33);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      
+      footer > form {
+        margin-left: 20px;
+      }
+      
+      .ff {
+        display: flex;
+        align-content: stretch;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      
+      .ff > input,
+      textarea {
+        max-width: 500px;
+        width: 100%;
+        border: 1px solid rgb(85, 84, 84);
+        box-shadow: 0px 0px 3px gray, 0 10px 15px whitesmoke inset;
+        border-radius: 4px;
+      }
+      
+      .ff > label {
+        width: 100%;
+        max-width: 500px;
+      }
+      
+      .ff > textarea {
+        overflow: auto;
+        padding: 5px;
+      }
+      .buttons {
+        width: 500px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-between;
+      }
+      
+      .social {
+        margin-right: 40px;
+        font-size: 25px;
+      }
+      
+      .social-list {
+        list-style-type: none;
+      }
+      
+      .social-list > li > i {
+        margin-right: 10px;
+      }
+      
+      .social-list > li > a {
+        color: rgb(212, 171, 33);
+      }
+      

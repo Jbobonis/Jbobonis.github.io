@@ -1,0 +1,328 @@
+html,
+
+body {
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+body {
+
+  margin: 0;
+
+}
+
+
+
+
+a {
+
+  text-decoration: none;
+
+}
+
+
+
+
+header {
+
+  min-height: 80px;
+
+  position: relative;
+
+  height: 80px;
+
+  background-color: #19172d;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+}
+
+.logo {
+
+  padding-left: 20px;
+
+}
+
+.logo > a {
+
+  font-size: 20px;
+
+  color: rgb(212, 171, 33) !important; /*Usando important para que si hay referencia, al mismo elemento, pues aplica como prioridad*/
+
+}
+
+.logo > a >span {
+
+  font-size: 30px;
+
+  color: white !important;
+
+}
+
+
+
+
+header > nav {
+
+  color: white !important;
+
+}
+
+.nav_links {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  align-content: flex-end;
+
+  width: 200px;
+
+  cursor: pointer;
+
+}
+
+
+
+
+.selectedLink {
+
+  color: rgb(212, 171, 33) !important;
+
+}
+
+
+
+
+.nav_links > li > a {
+
+  color: white;
+
+}
+
+
+
+
+.header-image {
+
+  position: absolute;
+
+  right: 0;
+
+  top: 2px;
+
+}
+
+
+
+
+.header-image > img {
+
+  height: 75px;
+
+}
+
+
+
+
+.container {
+
+  position: relative;
+
+  height: 100%;
+
+
+}
+
+
+
+
+.profile-container {
+
+  float: left;
+
+  height: 100%;
+
+  background-color: #19172d;
+
+  color: white;
+
+}
+
+
+
+
+.video-title {
+
+  margin-bottom: 20px;
+
+}
+
+.video-container {
+
+  padding-top: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  align-content: space-around;
+
+  align-items: center;
+
+}
+
+
+
+
+.inner-container {
+
+  width: 100%;
+
+}
+
+
+
+
+.profile-container > figure > img {
+
+  height: 200px;
+
+}
+
+
+
+
+.profile-container > figure > figcaption {
+
+  width: 250px;
+
+  max-width: 250px;
+
+  line-height: 35 px;
+
+}
+
+
+
+
+.table-title {
+
+  margin-top: 150px;
+
+}
+
+.video-container > table {
+
+  margin-top: 10px;
+
+}
+
+
+
+
+table,
+
+th,
+
+td {
+
+  border: 1px solid black;
+
+}
+
+
+
+
+footer {
+
+  background-color: #19172d;
+
+  color: rgb(212, 171, 33);
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  align-content: flex-end;
+
+}
+
+.social {
+
+  margin-right: 40px;
+
+  font-size: 25px;
+
+}
+
+
+
+
+.social-list {
+
+  list-style-type: none;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+
+}
+
+.social-list > li {
+
+  margin-left: 20px;
+
+}
+
+.social-list > li > i {
+
+  margin-right: 10px;
+
+}
+
+
+
+
+.social-list > li > a {
+
+  color: rgb(212, 171, 33);
+
+}
+
+h1{
+
+  margin-left: 100px;
+}
+
